@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="./res/pokeball_logo.png" />
+  <link rel="icon" type="image/svg+xml" href="./res/pokeball_logo.webp" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pokemon Helper</title>
   <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/pokemon.js"></script>
 </head>
 
 <body>
@@ -16,62 +17,495 @@
           src="https://fontmeme.com/permalink/250430/a17c397a9a1ca60ad9c1a1b35a98f459.png" alt="pokemon-font">
       </a>
       <ul class="nav-list">
-        <a class="nav-links" href="#">
-          <li>Item 1</li>
+        <a class="nav-links" href="./pokemon-db.html">
+
+          <li>Pokemon Database</li>
         </a>
         <a class="nav-links" href="#">
-          <li>Item 2</li>
+          <li>Pokemon Wordle</li>
         </a>
         <a class="nav-links" href="#">
-          <li>Item 3</li>
+          <li>Type Guide</li>
         </a>
       </ul>
     </nav>
   </header>
   <main>
     <div class="main">
-      <div class="card_container section">
-        <div class="card-list">
-          <div class="card">
-            <p class="pokemon_name">Pokemon 1</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 2</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 3</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 4</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 5</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 6</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 7</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 8</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 9</p>
-          </div>
-          <div class="card">
-            <p class="pokemon_name">Pokemon 10</p>
-          </div>
-        </div>
-      </div>
+
     </div>
-    <div class="main"></div>
-    <div class="main"></div>
-    <div class="main"></div>
+    <button id="fetchButton">Fetch Pokémon Data</button>
   </main>
   <footer>
 
   </footer>
+  <!-- gen 1 only -->
+  <!-- <script>
+    const allPokemonData = [];
+
+    function formatPokedexNumber(number) {
+      return `#${String(number).padStart(4, '0')}`;
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function formatGeneration(genName) {
+      const genMap = {
+        'generation-i': 'Ⅰ',
+        'generation-ii': 'Ⅱ',
+        'generation-iii': 'Ⅲ',
+        'generation-iv': 'Ⅳ',
+        'generation-v': 'Ⅴ',
+        'generation-vi': 'Ⅵ',
+        'generation-vii': 'Ⅶ',
+        'generation-viii': 'Ⅷ',
+        'generation-ix': 'Ⅸ'
+      };
+      return `Gen ${genMap[genName] || genName}`;
+    }
+
+    function formatFormName(baseName, fullName) {
+      const base = baseName.toLowerCase();
+      const full = fullName.toLowerCase();
+
+      if (base === full) return capitalize(baseName);
+
+      let form = full.replace(base, '').replace(/-/g, ' ').trim();
+
+      form = form
+        .replace('alola', 'Alola')
+        .replace('galar', 'Galar')
+        .replace('hisui', 'Hisui')
+        .replace('paldea', 'Paldea')
+        .replace('mega x', 'Mega X')
+        .replace('mega y', 'Mega Y')
+        .replace('mega', 'Mega')
+        .replace('gmax', 'Gigantamax')
+        .replace('origin', 'Origin')
+        .replace('therian', 'Therian')
+        .replace('incarnate', 'Incarnate')
+        .replace('attack', 'Attack')
+        .replace('defense', 'Defense')
+        .replace('speed', 'Speed')
+        .replace('fan', 'Fan')
+        .replace('heat', 'Heat')
+        .replace('wash', 'Wash')
+        .replace('frost', 'Frost')
+        .replace('mow', 'Mow');
+
+      return `${capitalize(baseName)} (${form})`;
+    }
+
+    async function fetchGen1PokemonData() {
+      try {
+        const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
+        const list = await res.json();
+
+        for (const entry of list.results) {
+          try {
+            const pokeRes = await fetch(entry.url);
+            const pokeData = await pokeRes.json();
+
+            const baseName = pokeData.species.name;
+            const fullName = pokeData.name;
+
+            const speciesRes = await fetch(pokeData.species.url);
+            const speciesData = await speciesRes.json();
+
+            if (speciesData.generation.name !== 'generation-i') continue;
+
+            const name = formatFormName(baseName, fullName);
+            const pokedex_number = formatPokedexNumber(pokeData.id);
+
+            const typesList = pokeData.types.map(t => capitalize(t.type.name));
+            const type = typesList[0] || null;
+            const type2 = typesList[1] || null;
+            const pokemonSpacer = typesList.length === 2 ? "•" : null;
+
+            const image = pokeData.sprites.other['official-artwork'].front_default;
+            const generation = formatGeneration(speciesData.generation.name);
+
+            allPokemonData.push({
+              name,
+              pokedex_number,
+              type,
+              type2,
+              pokemonSpacer,
+              generation,
+              image
+            });
+
+            console.log(`Fetched: ${name} (${pokedex_number})`);
+
+            await new Promise(resolve => setTimeout(resolve, 150));
+          } catch (error) {
+            console.error('Error fetching individual Pokémon:', error);
+          }
+        }
+
+        console.log(allPokemonData);
+
+        const blob = new Blob([JSON.stringify(allPokemonData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'gen1_pokemon_data_with_forms.json';
+        a.click();
+
+      } catch (error) {
+        console.error('Error fetching Pokémon list:', error);
+      }
+    }
+
+    document.getElementById('fetchButton').addEventListener('click', fetchGen1PokemonData);
+  </script> -->
+
+
+
+
+  <!-- gen 1 to 3 -->
+  <script>
+    const allPokemonData = [];
+
+    function formatPokedexNumber(number) {
+      return `#${String(number).padStart(4, '0')}`;
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function formatGeneration(genName) {
+      const genMap = {
+        'generation-i': 'Ⅰ',
+        'generation-ii': 'Ⅱ',
+        'generation-iii': 'Ⅲ',
+        'generation-iv': 'Ⅳ',
+        'generation-v': 'Ⅴ',
+        'generation-vi': 'Ⅵ',
+        'generation-vii': 'Ⅶ',
+        'generation-viii': 'Ⅷ',
+        'generation-ix': 'Ⅸ'
+      };
+      return `Gen ${genMap[genName] || genName}`;
+    }
+
+    function formatFormName(baseName, fullName) {
+      const base = baseName.toLowerCase();
+      const full = fullName.toLowerCase();
+
+      if (base === full) return capitalize(baseName);
+
+      let form = full.replace(base, '').replace(/-/g, ' ').trim();
+
+      form = form
+        .replace('alola', 'Alola')
+        .replace('galar', 'Galar')
+        .replace('hisui', 'Hisui')
+        .replace('paldea', 'Paldea')
+        .replace('mega x', 'Mega X')
+        .replace('mega y', 'Mega Y')
+        .replace('mega', 'Mega')
+        .replace('gmax', 'Gigantamax')
+        .replace('origin', 'Origin')
+        .replace('therian', 'Therian')
+        .replace('incarnate', 'Incarnate')
+        .replace('attack', 'Attack')
+        .replace('defense', 'Defense')
+        .replace('speed', 'Speed')
+        .replace('fan', 'Fan')
+        .replace('heat', 'Heat')
+        .replace('wash', 'Wash')
+        .replace('frost', 'Frost')
+        .replace('mow', 'Mow');
+
+      return `${capitalize(baseName)} (${form})`;
+    }
+
+    async function fetchGen1to3PokemonData() {
+      try {
+        const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
+        const list = await res.json();
+
+        for (const entry of list.results) {
+          try {
+            const pokeRes = await fetch(entry.url);
+            const pokeData = await pokeRes.json();
+
+            const baseName = pokeData.species.name;
+            const fullName = pokeData.name;
+
+            const speciesRes = await fetch(pokeData.species.url);
+            const speciesData = await speciesRes.json();
+
+            const genName = speciesData.generation.name;
+            if (!['generation-i', 'generation-ii', 'generation-iii'].includes(genName)) continue;
+
+            const name = formatFormName(baseName, fullName);
+            const pokedex_number = formatPokedexNumber(pokeData.id);
+
+            const typesList = pokeData.types.map(t => capitalize(t.type.name));
+            const type = typesList[0] || null;
+            const type2 = typesList[1] || null;
+            const pokemonSpacer = typesList.length === 2 ? "•" : null;
+
+            const image = pokeData.sprites.other['official-artwork'].front_default;
+            const generation = formatGeneration(genName);
+
+            allPokemonData.push({
+              name,
+              pokedex_number,
+              type,
+              type2,
+              pokemonSpacer,
+              generation,
+              image
+            });
+
+            console.log(`Fetched: ${name} (${pokedex_number})`);
+
+            await new Promise(resolve => setTimeout(resolve, 150));
+          } catch (error) {
+            console.error('Error fetching individual Pokémon:', error);
+          }
+        }
+
+        console.log(allPokemonData);
+
+        const blob = new Blob([JSON.stringify(allPokemonData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'gen1_to_3_pokemon_data_with_forms.json';
+        a.click();
+
+      } catch (error) {
+        console.error('Error fetching Pokémon list:', error);
+      }
+    }
+
+    document.getElementById('fetchButton').addEventListener('click', fetchGen1to3PokemonData);
+  </script>
+
+
+
+  <!-- all gens not updated -->
+  <!-- <script>
+    const allPokemonData = [];
+
+    function formatPokedexNumber(number) {
+      return `#${String(number).padStart(4, '0')}`;
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function formatGeneration(genName) {
+      const genMap = {
+        'generation-i': 'Gen I',
+        'generation-ii': 'Gen II',
+        'generation-iii': 'Gen III',
+        'generation-iv': 'Gen IV',
+        'generation-v': 'Gen V',
+        'generation-vi': 'Gen VI',
+        'generation-vii': 'Gen VII',
+        'generation-viii': 'Gen VIII',
+        'generation-ix': 'Gen IX'
+      };
+      return genMap[genName] || genName;
+    }
+
+    async function fetchAllPokemonData() {
+      try {
+        // Fetch all Pokémon including forms (not just species)
+        const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
+        const list = await res.json();
+
+        for (const entry of list.results) {
+          try {
+            const pokeRes = await fetch(entry.url);
+            const pokeData = await pokeRes.json();
+
+            const id = pokeData.id;
+            const name = capitalize(pokeData.name);
+            const pokedex_number = formatPokedexNumber(pokeData.id);
+
+            const typesList = pokeData.types.map(t => capitalize(t.type.name));
+            const type = typesList[0] || null;
+            const type2 = typesList[1] || null;
+            const pokemonSpacer = typesList.length === 2 ? "•" : null;
+
+            const image = pokeData.sprites.other['official-artwork'].front_default;
+
+            // Fetch species info to get generation
+            const speciesRes = await fetch(pokeData.species.url);
+            const speciesData = await speciesRes.json();
+            const generation = formatGeneration(speciesData.generation.name);
+
+            allPokemonData.push({
+              name,
+              pokedex_number,
+              type,
+              type2,
+              pokemonSpacer,
+              generation,
+              image
+            });
+
+            console.log(`Fetched: ${name} (${id})`);
+
+            // Be nice to the API
+            await new Promise(resolve => setTimeout(resolve, 150));
+          } catch (error) {
+            console.error('Error fetching individual Pokémon:', error);
+          }
+        }
+
+        console.log(allPokemonData);
+
+        // Download JSON
+        const blob = new Blob([JSON.stringify(allPokemonData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'all_pokemon_data_with_forms.json';
+        a.click();
+
+      } catch (error) {
+        console.error('Error fetching Pokémon list:', error);
+      }
+    }
+
+    document.getElementById('fetchButton').addEventListener('click', fetchAllPokemonData);
+  </script> -->
+
+
+  <!-- all gens updated -->
+  <!-- <script>
+    const allPokemonData = [];
+
+    function formatPokedexNumber(number) {
+      return `#${String(number).padStart(4, '0')}`;
+    }
+
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+
+    function formatGeneration(genName) {
+      const genMap = {
+        'generation-i': 'Ⅰ',
+        'generation-ii': 'Ⅱ',
+        'generation-iii': 'Ⅲ',
+        'generation-iv': 'Ⅳ',
+        'generation-v': 'Ⅴ',
+        'generation-vi': 'Ⅵ',
+        'generation-vii': 'Ⅶ',
+        'generation-viii': 'Ⅷ',
+        'generation-ix': 'Ⅸ'
+      };
+      return `Gen ${genMap[genName] || genName}`;
+    }
+
+    function formatFormName(baseName, fullName) {
+      const base = baseName.toLowerCase();
+      const full = fullName.toLowerCase();
+
+      if (base === full) return capitalize(baseName);
+
+      // Remove base name from form to extract suffix
+      let form = full.replace(base, '').replace(/-/g, ' ').trim();
+
+      // Normalize known form names
+      form = form
+        .replace('alola', 'Alola')
+        .replace('galar', 'Galar')
+        .replace('hisui', 'Hisui')
+        .replace('paldea', 'Paldea')
+        .replace('mega x', 'Mega X')
+        .replace('mega y', 'Mega Y')
+        .replace('mega', 'Mega')
+        .replace('gmax', 'Gigantamax')
+        .replace('origin', 'Origin')
+        .replace('therian', 'Therian')
+        .replace('incarnate', 'Incarnate')
+        .replace('attack', 'Attack')
+        .replace('defense', 'Defense')
+        .replace('speed', 'Speed')
+        .replace('fan', 'Fan')
+        .replace('heat', 'Heat')
+        .replace('wash', 'Wash')
+        .replace('frost', 'Frost')
+        .replace('mow', 'Mow');
+
+      return `${capitalize(baseName)} (${form})`;
+    }
+
+    async function fetchAllPokemonData() {
+      try {
+        const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10000');
+        const list = await res.json();
+
+        for (const entry of list.results) {
+          try {
+            const pokeRes = await fetch(entry.url);
+            const pokeData = await pokeRes.json();
+
+            const id = pokeData.id;
+            const baseName = pokeData.species.name;
+            const fullName = pokeData.name;
+
+            const name = formatFormName(baseName, fullName);
+            const pokedex_number = formatPokedexNumber(pokeData.id);
+
+            const typesList = pokeData.types.map(t => capitalize(t.type.name));
+            const type = typesList[0] || null;
+            const type2 = typesList[1] || null;
+            const pokemonSpacer = typesList.length === 2 ? "•" : null;
+
+            const image = pokeData.sprites.other['official-artwork'].front_default;
+
+            const speciesRes = await fetch(pokeData.species.url);
+            const speciesData = await speciesRes.json();
+            const generation = formatGeneration(speciesData.generation.name);
+
+            allPokemonData.push({
+              name,
+              pokedex_number,
+              type,
+              type2,
+              pokemonSpacer,
+              generation,
+              image
+            });
+
+            console.log(`Fetched: ${name} (${id})`);
+
+            await new Promise(resolve => setTimeout(resolve, 150));
+          } catch (error) {
+            console.error('Error fetching individual Pokémon:', error);
+          }
+        }
+
+        console.log(allPokemonData);
+
+        const blob = new Blob([JSON.stringify(allPokemonData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'all_pokemon_data_with_forms_and_unicode_gen.json';
+        a.click();
+
+      } catch (error) {
+        console.error('Error fetching Pokémon list:', error);
+      }
+    }
+
+    document.getElementById('fetchButton').addEventListener('click', fetchAllPokemonData);
+  </script> -->
 </body>
 
 </html>

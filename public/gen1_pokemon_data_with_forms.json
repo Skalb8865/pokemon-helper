@@ -1,0 +1,2090 @@
+[
+  {
+    "name": "Bulbasaur",
+    "pokedex_number": "#0001",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+  },
+  {
+    "name": "Ivysaur",
+    "pokedex_number": "#0002",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
+  },
+  {
+    "name": "Venusaur",
+    "pokedex_number": "#0003",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
+  },
+  {
+    "name": "Charmander",
+    "pokedex_number": "#0004",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+  },
+  {
+    "name": "Charmeleon",
+    "pokedex_number": "#0005",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
+  },
+  {
+    "name": "Charizard",
+    "pokedex_number": "#0006",
+    "type": "Fire",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+  },
+  {
+    "name": "Squirtle",
+    "pokedex_number": "#0007",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+  },
+  {
+    "name": "Wartortle",
+    "pokedex_number": "#0008",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
+  },
+  {
+    "name": "Blastoise",
+    "pokedex_number": "#0009",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
+  },
+  {
+    "name": "Caterpie",
+    "pokedex_number": "#0010",
+    "type": "Bug",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png"
+  },
+  {
+    "name": "Metapod",
+    "pokedex_number": "#0011",
+    "type": "Bug",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png"
+  },
+  {
+    "name": "Butterfree",
+    "pokedex_number": "#0012",
+    "type": "Bug",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png"
+  },
+  {
+    "name": "Weedle",
+    "pokedex_number": "#0013",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png"
+  },
+  {
+    "name": "Kakuna",
+    "pokedex_number": "#0014",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png"
+  },
+  {
+    "name": "Beedrill",
+    "pokedex_number": "#0015",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png"
+  },
+  {
+    "name": "Pidgey",
+    "pokedex_number": "#0016",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png"
+  },
+  {
+    "name": "Pidgeotto",
+    "pokedex_number": "#0017",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png"
+  },
+  {
+    "name": "Pidgeot",
+    "pokedex_number": "#0018",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png"
+  },
+  {
+    "name": "Rattata",
+    "pokedex_number": "#0019",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png"
+  },
+  {
+    "name": "Raticate",
+    "pokedex_number": "#0020",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png"
+  },
+  {
+    "name": "Spearow",
+    "pokedex_number": "#0021",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png"
+  },
+  {
+    "name": "Fearow",
+    "pokedex_number": "#0022",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png"
+  },
+  {
+    "name": "Ekans",
+    "pokedex_number": "#0023",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  {
+    "name": "Arbok",
+    "pokedex_number": "#0024",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+  },
+  {
+    "name": "Pikachu",
+    "pokedex_number": "#0025",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+  },
+  {
+    "name": "Raichu",
+    "pokedex_number": "#0026",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
+  },
+  {
+    "name": "Sandshrew",
+    "pokedex_number": "#0027",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png"
+  },
+  {
+    "name": "Sandslash",
+    "pokedex_number": "#0028",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png"
+  },
+  {
+    "name": "Nidoran-f",
+    "pokedex_number": "#0029",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png"
+  },
+  {
+    "name": "Nidorina",
+    "pokedex_number": "#0030",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png"
+  },
+  {
+    "name": "Nidoqueen",
+    "pokedex_number": "#0031",
+    "type": "Poison",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png"
+  },
+  {
+    "name": "Nidoran-m",
+    "pokedex_number": "#0032",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png"
+  },
+  {
+    "name": "Nidorino",
+    "pokedex_number": "#0033",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png"
+  },
+  {
+    "name": "Nidoking",
+    "pokedex_number": "#0034",
+    "type": "Poison",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png"
+  },
+  {
+    "name": "Clefairy",
+    "pokedex_number": "#0035",
+    "type": "Fairy",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png"
+  },
+  {
+    "name": "Clefable",
+    "pokedex_number": "#0036",
+    "type": "Fairy",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png"
+  },
+  {
+    "name": "Vulpix",
+    "pokedex_number": "#0037",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png"
+  },
+  {
+    "name": "Ninetales",
+    "pokedex_number": "#0038",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png"
+  },
+  {
+    "name": "Jigglypuff",
+    "pokedex_number": "#0039",
+    "type": "Normal",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+  },
+  {
+    "name": "Wigglytuff",
+    "pokedex_number": "#0040",
+    "type": "Normal",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png"
+  },
+  {
+    "name": "Zubat",
+    "pokedex_number": "#0041",
+    "type": "Poison",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png"
+  },
+  {
+    "name": "Golbat",
+    "pokedex_number": "#0042",
+    "type": "Poison",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png"
+  },
+  {
+    "name": "Oddish",
+    "pokedex_number": "#0043",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png"
+  },
+  {
+    "name": "Gloom",
+    "pokedex_number": "#0044",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png"
+  },
+  {
+    "name": "Vileplume",
+    "pokedex_number": "#0045",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png"
+  },
+  {
+    "name": "Paras",
+    "pokedex_number": "#0046",
+    "type": "Bug",
+    "type2": "Grass",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png"
+  },
+  {
+    "name": "Parasect",
+    "pokedex_number": "#0047",
+    "type": "Bug",
+    "type2": "Grass",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png"
+  },
+  {
+    "name": "Venonat",
+    "pokedex_number": "#0048",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png"
+  },
+  {
+    "name": "Venomoth",
+    "pokedex_number": "#0049",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png"
+  },
+  {
+    "name": "Diglett",
+    "pokedex_number": "#0050",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png"
+  },
+  {
+    "name": "Dugtrio",
+    "pokedex_number": "#0051",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png"
+  },
+  {
+    "name": "Meowth",
+    "pokedex_number": "#0052",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
+  },
+  {
+    "name": "Persian",
+    "pokedex_number": "#0053",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png"
+  },
+  {
+    "name": "Psyduck",
+    "pokedex_number": "#0054",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png"
+  },
+  {
+    "name": "Golduck",
+    "pokedex_number": "#0055",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png"
+  },
+  {
+    "name": "Mankey",
+    "pokedex_number": "#0056",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png"
+  },
+  {
+    "name": "Primeape",
+    "pokedex_number": "#0057",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png"
+  },
+  {
+    "name": "Growlithe",
+    "pokedex_number": "#0058",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png"
+  },
+  {
+    "name": "Arcanine",
+    "pokedex_number": "#0059",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png"
+  },
+  {
+    "name": "Poliwag",
+    "pokedex_number": "#0060",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png"
+  },
+  {
+    "name": "Poliwhirl",
+    "pokedex_number": "#0061",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png"
+  },
+  {
+    "name": "Poliwrath",
+    "pokedex_number": "#0062",
+    "type": "Water",
+    "type2": "Fighting",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png"
+  },
+  {
+    "name": "Abra",
+    "pokedex_number": "#0063",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png"
+  },
+  {
+    "name": "Kadabra",
+    "pokedex_number": "#0064",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png"
+  },
+  {
+    "name": "Alakazam",
+    "pokedex_number": "#0065",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png"
+  },
+  {
+    "name": "Machop",
+    "pokedex_number": "#0066",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png"
+  },
+  {
+    "name": "Machoke",
+    "pokedex_number": "#0067",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png"
+  },
+  {
+    "name": "Machamp",
+    "pokedex_number": "#0068",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png"
+  },
+  {
+    "name": "Bellsprout",
+    "pokedex_number": "#0069",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png"
+  },
+  {
+    "name": "Weepinbell",
+    "pokedex_number": "#0070",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png"
+  },
+  {
+    "name": "Victreebel",
+    "pokedex_number": "#0071",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png"
+  },
+  {
+    "name": "Tentacool",
+    "pokedex_number": "#0072",
+    "type": "Water",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png"
+  },
+  {
+    "name": "Tentacruel",
+    "pokedex_number": "#0073",
+    "type": "Water",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png"
+  },
+  {
+    "name": "Geodude",
+    "pokedex_number": "#0074",
+    "type": "Rock",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png"
+  },
+  {
+    "name": "Graveler",
+    "pokedex_number": "#0075",
+    "type": "Rock",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png"
+  },
+  {
+    "name": "Golem",
+    "pokedex_number": "#0076",
+    "type": "Rock",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png"
+  },
+  {
+    "name": "Ponyta",
+    "pokedex_number": "#0077",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png"
+  },
+  {
+    "name": "Rapidash",
+    "pokedex_number": "#0078",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png"
+  },
+  {
+    "name": "Slowpoke",
+    "pokedex_number": "#0079",
+    "type": "Water",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png"
+  },
+  {
+    "name": "Slowbro",
+    "pokedex_number": "#0080",
+    "type": "Water",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png"
+  },
+  {
+    "name": "Magnemite",
+    "pokedex_number": "#0081",
+    "type": "Electric",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png"
+  },
+  {
+    "name": "Magneton",
+    "pokedex_number": "#0082",
+    "type": "Electric",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png"
+  },
+  {
+    "name": "Farfetchd",
+    "pokedex_number": "#0083",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png"
+  },
+  {
+    "name": "Doduo",
+    "pokedex_number": "#0084",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png"
+  },
+  {
+    "name": "Dodrio",
+    "pokedex_number": "#0085",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png"
+  },
+  {
+    "name": "Seel",
+    "pokedex_number": "#0086",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png"
+  },
+  {
+    "name": "Dewgong",
+    "pokedex_number": "#0087",
+    "type": "Water",
+    "type2": "Ice",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png"
+  },
+  {
+    "name": "Grimer",
+    "pokedex_number": "#0088",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png"
+  },
+  {
+    "name": "Muk",
+    "pokedex_number": "#0089",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png"
+  },
+  {
+    "name": "Shellder",
+    "pokedex_number": "#0090",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png"
+  },
+  {
+    "name": "Cloyster",
+    "pokedex_number": "#0091",
+    "type": "Water",
+    "type2": "Ice",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png"
+  },
+  {
+    "name": "Gastly",
+    "pokedex_number": "#0092",
+    "type": "Ghost",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
+  },
+  {
+    "name": "Haunter",
+    "pokedex_number": "#0093",
+    "type": "Ghost",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
+  },
+  {
+    "name": "Gengar",
+    "pokedex_number": "#0094",
+    "type": "Ghost",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
+  },
+  {
+    "name": "Onix",
+    "pokedex_number": "#0095",
+    "type": "Rock",
+    "type2": "Ground",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  {
+    "name": "Drowzee",
+    "pokedex_number": "#0096",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png"
+  },
+  {
+    "name": "Hypno",
+    "pokedex_number": "#0097",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png"
+  },
+  {
+    "name": "Krabby",
+    "pokedex_number": "#0098",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png"
+  },
+  {
+    "name": "Kingler",
+    "pokedex_number": "#0099",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png"
+  },
+  {
+    "name": "Voltorb",
+    "pokedex_number": "#0100",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png"
+  },
+  {
+    "name": "Electrode",
+    "pokedex_number": "#0101",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png"
+  },
+  {
+    "name": "Exeggcute",
+    "pokedex_number": "#0102",
+    "type": "Grass",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png"
+  },
+  {
+    "name": "Exeggutor",
+    "pokedex_number": "#0103",
+    "type": "Grass",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png"
+  },
+  {
+    "name": "Cubone",
+    "pokedex_number": "#0104",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png"
+  },
+  {
+    "name": "Marowak",
+    "pokedex_number": "#0105",
+    "type": "Ground",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png"
+  },
+  {
+    "name": "Hitmonlee",
+    "pokedex_number": "#0106",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png"
+  },
+  {
+    "name": "Hitmonchan",
+    "pokedex_number": "#0107",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png"
+  },
+  {
+    "name": "Lickitung",
+    "pokedex_number": "#0108",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png"
+  },
+  {
+    "name": "Koffing",
+    "pokedex_number": "#0109",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png"
+  },
+  {
+    "name": "Weezing",
+    "pokedex_number": "#0110",
+    "type": "Poison",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png"
+  },
+  {
+    "name": "Rhyhorn",
+    "pokedex_number": "#0111",
+    "type": "Ground",
+    "type2": "Rock",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png"
+  },
+  {
+    "name": "Rhydon",
+    "pokedex_number": "#0112",
+    "type": "Ground",
+    "type2": "Rock",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png"
+  },
+  {
+    "name": "Chansey",
+    "pokedex_number": "#0113",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png"
+  },
+  {
+    "name": "Tangela",
+    "pokedex_number": "#0114",
+    "type": "Grass",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png"
+  },
+  {
+    "name": "Kangaskhan",
+    "pokedex_number": "#0115",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png"
+  },
+  {
+    "name": "Horsea",
+    "pokedex_number": "#0116",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png"
+  },
+  {
+    "name": "Seadra",
+    "pokedex_number": "#0117",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png"
+  },
+  {
+    "name": "Goldeen",
+    "pokedex_number": "#0118",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png"
+  },
+  {
+    "name": "Seaking",
+    "pokedex_number": "#0119",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png"
+  },
+  {
+    "name": "Staryu",
+    "pokedex_number": "#0120",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png"
+  },
+  {
+    "name": "Starmie",
+    "pokedex_number": "#0121",
+    "type": "Water",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png"
+  },
+  {
+    "name": "Mr-mime",
+    "pokedex_number": "#0122",
+    "type": "Psychic",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png"
+  },
+  {
+    "name": "Scyther",
+    "pokedex_number": "#0123",
+    "type": "Bug",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png"
+  },
+  {
+    "name": "Jynx",
+    "pokedex_number": "#0124",
+    "type": "Ice",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png"
+  },
+  {
+    "name": "Electabuzz",
+    "pokedex_number": "#0125",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png"
+  },
+  {
+    "name": "Magmar",
+    "pokedex_number": "#0126",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png"
+  },
+  {
+    "name": "Pinsir",
+    "pokedex_number": "#0127",
+    "type": "Bug",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png"
+  },
+  {
+    "name": "Tauros",
+    "pokedex_number": "#0128",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png"
+  },
+  {
+    "name": "Magikarp",
+    "pokedex_number": "#0129",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+  },
+  {
+    "name": "Gyarados",
+    "pokedex_number": "#0130",
+    "type": "Water",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png"
+  },
+  {
+    "name": "Lapras",
+    "pokedex_number": "#0131",
+    "type": "Water",
+    "type2": "Ice",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png"
+  },
+  {
+    "name": "Ditto",
+    "pokedex_number": "#0132",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png"
+  },
+  {
+    "name": "Eevee",
+    "pokedex_number": "#0133",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
+  },
+  {
+    "name": "Vaporeon",
+    "pokedex_number": "#0134",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
+  },
+  {
+    "name": "Jolteon",
+    "pokedex_number": "#0135",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
+  },
+  {
+    "name": "Flareon",
+    "pokedex_number": "#0136",
+    "type": "Fire",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
+  },
+  {
+    "name": "Porygon",
+    "pokedex_number": "#0137",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
+  },
+  {
+    "name": "Omanyte",
+    "pokedex_number": "#0138",
+    "type": "Rock",
+    "type2": "Water",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
+  },
+  {
+    "name": "Omastar",
+    "pokedex_number": "#0139",
+    "type": "Rock",
+    "type2": "Water",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
+  },
+  {
+    "name": "Kabuto",
+    "pokedex_number": "#0140",
+    "type": "Rock",
+    "type2": "Water",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png"
+  },
+  {
+    "name": "Kabutops",
+    "pokedex_number": "#0141",
+    "type": "Rock",
+    "type2": "Water",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png"
+  },
+  {
+    "name": "Aerodactyl",
+    "pokedex_number": "#0142",
+    "type": "Rock",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png"
+  },
+  {
+    "name": "Snorlax",
+    "pokedex_number": "#0143",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png"
+  },
+  {
+    "name": "Articuno",
+    "pokedex_number": "#0144",
+    "type": "Ice",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
+  },
+  {
+    "name": "Zapdos",
+    "pokedex_number": "#0145",
+    "type": "Electric",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png"
+  },
+  {
+    "name": "Moltres",
+    "pokedex_number": "#0146",
+    "type": "Fire",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png"
+  },
+  {
+    "name": "Dratini",
+    "pokedex_number": "#0147",
+    "type": "Dragon",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png"
+  },
+  {
+    "name": "Dragonair",
+    "pokedex_number": "#0148",
+    "type": "Dragon",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png"
+  },
+  {
+    "name": "Dragonite",
+    "pokedex_number": "#0149",
+    "type": "Dragon",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png"
+  },
+  {
+    "name": "Mewtwo",
+    "pokedex_number": "#0150",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+  },
+  {
+    "name": "Mew",
+    "pokedex_number": "#0151",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+  },
+  {
+    "name": "Venusaur (Mega)",
+    "pokedex_number": "#10033",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10033.png"
+  },
+  {
+    "name": "Charizard (Mega X)",
+    "pokedex_number": "#10034",
+    "type": "Fire",
+    "type2": "Dragon",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10034.png"
+  },
+  {
+    "name": "Charizard (Mega Y)",
+    "pokedex_number": "#10035",
+    "type": "Fire",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10035.png"
+  },
+  {
+    "name": "Blastoise (Mega)",
+    "pokedex_number": "#10036",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10036.png"
+  },
+  {
+    "name": "Alakazam (Mega)",
+    "pokedex_number": "#10037",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10037.png"
+  },
+  {
+    "name": "Gengar (Mega)",
+    "pokedex_number": "#10038",
+    "type": "Ghost",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10038.png"
+  },
+  {
+    "name": "Kangaskhan (Mega)",
+    "pokedex_number": "#10039",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10039.png"
+  },
+  {
+    "name": "Pinsir (Mega)",
+    "pokedex_number": "#10040",
+    "type": "Bug",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10040.png"
+  },
+  {
+    "name": "Gyarados (Mega)",
+    "pokedex_number": "#10041",
+    "type": "Water",
+    "type2": "Dark",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10041.png"
+  },
+  {
+    "name": "Aerodactyl (Mega)",
+    "pokedex_number": "#10042",
+    "type": "Rock",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10042.png"
+  },
+  {
+    "name": "Mewtwo (Mega X)",
+    "pokedex_number": "#10043",
+    "type": "Psychic",
+    "type2": "Fighting",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10043.png"
+  },
+  {
+    "name": "Mewtwo (Mega Y)",
+    "pokedex_number": "#10044",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10044.png"
+  },
+  {
+    "name": "Slowbro (Mega)",
+    "pokedex_number": "#10071",
+    "type": "Water",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10071.png"
+  },
+  {
+    "name": "Pidgeot (Mega)",
+    "pokedex_number": "#10073",
+    "type": "Normal",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10073.png"
+  },
+  {
+    "name": "Pikachu (rock star)",
+    "pokedex_number": "#10080",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10080.png"
+  },
+  {
+    "name": "Pikachu (belle)",
+    "pokedex_number": "#10081",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10081.png"
+  },
+  {
+    "name": "Pikachu (pop star)",
+    "pokedex_number": "#10082",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10082.png"
+  },
+  {
+    "name": "Pikachu (phd)",
+    "pokedex_number": "#10083",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10083.png"
+  },
+  {
+    "name": "Pikachu (libre)",
+    "pokedex_number": "#10084",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10084.png"
+  },
+  {
+    "name": "Pikachu (cosplay)",
+    "pokedex_number": "#10085",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10085.png"
+  },
+  {
+    "name": "Beedrill (Mega)",
+    "pokedex_number": "#10090",
+    "type": "Bug",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10090.png"
+  },
+  {
+    "name": "Rattata (Alola)",
+    "pokedex_number": "#10091",
+    "type": "Dark",
+    "type2": "Normal",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10091.png"
+  },
+  {
+    "name": "Raticate (Alola)",
+    "pokedex_number": "#10092",
+    "type": "Dark",
+    "type2": "Normal",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10092.png"
+  },
+  {
+    "name": "Raticate (totem Alola)",
+    "pokedex_number": "#10093",
+    "type": "Dark",
+    "type2": "Normal",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10093.png"
+  },
+  {
+    "name": "Pikachu (Original cap)",
+    "pokedex_number": "#10094",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10094.png"
+  },
+  {
+    "name": "Pikachu (hoenn cap)",
+    "pokedex_number": "#10095",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10095.png"
+  },
+  {
+    "name": "Pikachu (sinnoh cap)",
+    "pokedex_number": "#10096",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10096.png"
+  },
+  {
+    "name": "Pikachu (unova cap)",
+    "pokedex_number": "#10097",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10097.png"
+  },
+  {
+    "name": "Pikachu (kalos cap)",
+    "pokedex_number": "#10098",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10098.png"
+  },
+  {
+    "name": "Pikachu (Alola cap)",
+    "pokedex_number": "#10099",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10099.png"
+  },
+  {
+    "name": "Raichu (Alola)",
+    "pokedex_number": "#10100",
+    "type": "Electric",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png"
+  },
+  {
+    "name": "Sandshrew (Alola)",
+    "pokedex_number": "#10101",
+    "type": "Ice",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10101.png"
+  },
+  {
+    "name": "Sandslash (Alola)",
+    "pokedex_number": "#10102",
+    "type": "Ice",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10102.png"
+  },
+  {
+    "name": "Vulpix (Alola)",
+    "pokedex_number": "#10103",
+    "type": "Ice",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10103.png"
+  },
+  {
+    "name": "Ninetales (Alola)",
+    "pokedex_number": "#10104",
+    "type": "Ice",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10104.png"
+  },
+  {
+    "name": "Diglett (Alola)",
+    "pokedex_number": "#10105",
+    "type": "Ground",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10105.png"
+  },
+  {
+    "name": "Dugtrio (Alola)",
+    "pokedex_number": "#10106",
+    "type": "Ground",
+    "type2": "Steel",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10106.png"
+  },
+  {
+    "name": "Meowth (Alola)",
+    "pokedex_number": "#10107",
+    "type": "Dark",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png"
+  },
+  {
+    "name": "Persian (Alola)",
+    "pokedex_number": "#10108",
+    "type": "Dark",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10108.png"
+  },
+  {
+    "name": "Geodude (Alola)",
+    "pokedex_number": "#10109",
+    "type": "Rock",
+    "type2": "Electric",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10109.png"
+  },
+  {
+    "name": "Graveler (Alola)",
+    "pokedex_number": "#10110",
+    "type": "Rock",
+    "type2": "Electric",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10110.png"
+  },
+  {
+    "name": "Golem (Alola)",
+    "pokedex_number": "#10111",
+    "type": "Rock",
+    "type2": "Electric",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10111.png"
+  },
+  {
+    "name": "Grimer (Alola)",
+    "pokedex_number": "#10112",
+    "type": "Poison",
+    "type2": "Dark",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10112.png"
+  },
+  {
+    "name": "Muk (Alola)",
+    "pokedex_number": "#10113",
+    "type": "Poison",
+    "type2": "Dark",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10113.png"
+  },
+  {
+    "name": "Exeggutor (Alola)",
+    "pokedex_number": "#10114",
+    "type": "Grass",
+    "type2": "Dragon",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10114.png"
+  },
+  {
+    "name": "Marowak (Alola)",
+    "pokedex_number": "#10115",
+    "type": "Fire",
+    "type2": "Ghost",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10115.png"
+  },
+  {
+    "name": "Pikachu (partner cap)",
+    "pokedex_number": "#10148",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10148.png"
+  },
+  {
+    "name": "Marowak (totem)",
+    "pokedex_number": "#10149",
+    "type": "Fire",
+    "type2": "Ghost",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10149.png"
+  },
+  {
+    "name": "Pikachu (starter)",
+    "pokedex_number": "#10158",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10158.png"
+  },
+  {
+    "name": "Eevee (starter)",
+    "pokedex_number": "#10159",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10159.png"
+  },
+  {
+    "name": "Pikachu (world cap)",
+    "pokedex_number": "#10160",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10160.png"
+  },
+  {
+    "name": "Meowth (Galar)",
+    "pokedex_number": "#10161",
+    "type": "Steel",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png"
+  },
+  {
+    "name": "Ponyta (Galar)",
+    "pokedex_number": "#10162",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10162.png"
+  },
+  {
+    "name": "Rapidash (Galar)",
+    "pokedex_number": "#10163",
+    "type": "Psychic",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10163.png"
+  },
+  {
+    "name": "Slowpoke (Galar)",
+    "pokedex_number": "#10164",
+    "type": "Psychic",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10164.png"
+  },
+  {
+    "name": "Slowbro (Galar)",
+    "pokedex_number": "#10165",
+    "type": "Poison",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10165.png"
+  },
+  {
+    "name": "Farfetchd (Galar)",
+    "pokedex_number": "#10166",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10166.png"
+  },
+  {
+    "name": "Weezing (Galar)",
+    "pokedex_number": "#10167",
+    "type": "Poison",
+    "type2": "Fairy",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10167.png"
+  },
+  {
+    "name": "Mr-mime (Galar)",
+    "pokedex_number": "#10168",
+    "type": "Ice",
+    "type2": "Psychic",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10168.png"
+  },
+  {
+    "name": "Articuno (Galar)",
+    "pokedex_number": "#10169",
+    "type": "Psychic",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10169.png"
+  },
+  {
+    "name": "Zapdos (Galar)",
+    "pokedex_number": "#10170",
+    "type": "Fighting",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10170.png"
+  },
+  {
+    "name": "Moltres (Galar)",
+    "pokedex_number": "#10171",
+    "type": "Dark",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10171.png"
+  },
+  {
+    "name": "Venusaur (Gigantamax)",
+    "pokedex_number": "#10195",
+    "type": "Grass",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10195.png"
+  },
+  {
+    "name": "Charizard (Gigantamax)",
+    "pokedex_number": "#10196",
+    "type": "Fire",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10196.png"
+  },
+  {
+    "name": "Blastoise (Gigantamax)",
+    "pokedex_number": "#10197",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10197.png"
+  },
+  {
+    "name": "Butterfree (Gigantamax)",
+    "pokedex_number": "#10198",
+    "type": "Bug",
+    "type2": "Flying",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10198.png"
+  },
+  {
+    "name": "Pikachu (Gigantamax)",
+    "pokedex_number": "#10199",
+    "type": "Electric",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10199.png"
+  },
+  {
+    "name": "Meowth (Gigantamax)",
+    "pokedex_number": "#10200",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10200.png"
+  },
+  {
+    "name": "Machamp (Gigantamax)",
+    "pokedex_number": "#10201",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10201.png"
+  },
+  {
+    "name": "Gengar (Gigantamax)",
+    "pokedex_number": "#10202",
+    "type": "Ghost",
+    "type2": "Poison",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10202.png"
+  },
+  {
+    "name": "Kingler (Gigantamax)",
+    "pokedex_number": "#10203",
+    "type": "Water",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10203.png"
+  },
+  {
+    "name": "Lapras (Gigantamax)",
+    "pokedex_number": "#10204",
+    "type": "Water",
+    "type2": "Ice",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10204.png"
+  },
+  {
+    "name": "Eevee (Gigantamax)",
+    "pokedex_number": "#10205",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10205.png"
+  },
+  {
+    "name": "Snorlax (Gigantamax)",
+    "pokedex_number": "#10206",
+    "type": "Normal",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10206.png"
+  },
+  {
+    "name": "Growlithe (Hisui)",
+    "pokedex_number": "#10229",
+    "type": "Fire",
+    "type2": "Rock",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10229.png"
+  },
+  {
+    "name": "Arcanine (Hisui)",
+    "pokedex_number": "#10230",
+    "type": "Fire",
+    "type2": "Rock",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10230.png"
+  },
+  {
+    "name": "Voltorb (Hisui)",
+    "pokedex_number": "#10231",
+    "type": "Electric",
+    "type2": "Grass",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10231.png"
+  },
+  {
+    "name": "Electrode (Hisui)",
+    "pokedex_number": "#10232",
+    "type": "Electric",
+    "type2": "Grass",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10232.png"
+  },
+  {
+    "name": "Tauros (Paldea combat breed)",
+    "pokedex_number": "#10250",
+    "type": "Fighting",
+    "type2": "",
+    "pokemonSpacer": "",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10250.png"
+  },
+  {
+    "name": "Tauros (Paldea blaze breed)",
+    "pokedex_number": "#10251",
+    "type": "Fighting",
+    "type2": "Fire",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10251.png"
+  },
+  {
+    "name": "Tauros (Paldea aqua breed)",
+    "pokedex_number": "#10252",
+    "type": "Fighting",
+    "type2": "Water",
+    "pokemonSpacer": "•",
+    "generation": "Gen Ⅰ",
+    "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10252.png"
+  }
+]
