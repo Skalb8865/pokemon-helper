@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pokemon Helper</title>
   <script type="module" src="/src/main.js"></script>
-  <script type="module" src="/src/pokemon.js"></script>
 </head>
 
 <body>
@@ -252,6 +251,7 @@
             const pokemonSpacer = typesList.length === 2 ? "•" : null;
 
             const image = pokeData.sprites.other['official-artwork'].front_default;
+            // const image = pokeData.sprites.front_default || pokeData.sprites.other['official-artwork'].front_default;
             const generation = formatGeneration(genName);
 
             allPokemonData.push({
