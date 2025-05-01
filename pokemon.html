@@ -1,19 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./res/pokeball_logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Helper</title>
     <script type="module" src="./src/main.js"></script>
-    <script src="pokemon-detail.js"></script>
-    <title>Document</title>
+    <script type="module" defer src="./src/pokemon-detail.js"></script>
 </head>
 
 <body>
-    <div class="pokemon-detail-container">
-        <div id="loading">Loading Pokémon...</div>
-        <div id="pokemonDetail" style="display: none;"></div>
-    </div>
+    <header>
+        <nav class="navbar">
+            <a class="nav-logo" href="./index.html"><img
+                    src="https://fontmeme.com/permalink/250430/a17c397a9a1ca60ad9c1a1b35a98f459.png" alt="pokemon-font">
+            </a>
+            <ul class="nav-list">
+                <a class="nav-links" href="./pokemon-db.html">
+
+                    <li>Pokemon Database</li>
+                </a>
+                <a class="nav-links" href="#">
+                    <li>Pokemon Wordle</li>
+                </a>
+                <a class="nav-links" href="#">
+                    <li>Type Guide</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main">
+            <div class="pokemon-detail-container">
+                <div id="loading">Loading Pokémon...</div>
+                <div id="pokemonDetail" style="display: none;"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
