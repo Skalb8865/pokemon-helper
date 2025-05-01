@@ -418,3 +418,36 @@ footer {
   background: var(--clr-dark);
   height: 50px;
 }
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: none;
+  color: var(--clr-light);
+  background: var(--clr-dark);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background: var(--clr-dark-grey);
+  transition: all 0.3s;
+}
+
+.pagination button.active {
+  background: var(--clr-main);
+  color: var(--clr-light);
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.pagination button.active:hover {
+  background: var(--clr-dark-red);
+  transition: all 0.3s;
+}

@@ -23,51 +23,95 @@
 
 const jsonFile = "/all_pokemon_data_with_forms.json";
 const pokemonList = document.querySelector(".card-list");
-const loadMoreButton = document.getElementById("loadMore");
+const paginationContainer = document.getElementById("pagination");
 
-let allPokemon = [];        // holds all the Pokémon
-let currentIndex = 0;       // tracks how many we’ve shown
-const batchSize = 100;       // how many to show at a time
+const itemsPerPage = 52;
+const maxPagesVisible = 5;
 
-// Load the JSON and store data
+let allPokemon = [];
+let currentPage = 1;
+
+// Fetch data
 fetch(jsonFile)
   .then((response) => response.json())
   .then((data) => {
     allPokemon = data;
-    showNextBatch(); // show the first 50
+    renderPage(currentPage);
+    renderPagination();
   });
 
-// Show the next batch of Pokémon
-function showNextBatch() {
-  const nextBatch = allPokemon.slice(currentIndex, currentIndex + batchSize);
+// Render cards for the given page
+function renderPage(page) {
+  pokemonList.innerHTML = "";
 
-  nextBatch.forEach((pokemons) => {
-    const { image, name, type, type2, generation, pokedex_number, pokemonSpacer } = pokemons;
+  const start = (page - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+  const batch = allPokemon.slice(start, end);
+
+  batch.forEach((pokemon) => {
+    const { image, name, type, type2, generation, pokedex_number, pokemonSpacer } = pokemon;
 
     pokemonList.innerHTML += `
       <div class="card">
         <div class="card_img">
-          <a href="pokemon.html?name=${name}"><img src="${image}" alt="${name}" loading="lazy"></a>
+          <a href="pokemon.html?name=${encodeURIComponent(name)}">
+            <img src="${image}" alt="${name}" loading="lazy">
+          </a>
         </div>
         <div class="pokemon_info">
           <p class="pokemon_name">${name} <span class="pokemon_number">${pokedex_number}</span></p>
           <p class="pokemon_gen">${generation}</p>
         </div>
         <p class="pokemon_type">
-          <span class="${type}">${type}</span> ${pokemonSpacer || ""} <span class="${type2 || ""}">${type2 || ""}</span>
+          <span class="${type}">${type}</span> ${pokemonSpacer || ""} 
+          <span class="${type2}">${type2}</span>
         </p>
       </div>
     `;
   });
+}
 
-  currentIndex += batchSize;
+// Render pagination controls
+function renderPagination() {
+  const totalPages = Math.ceil(allPokemon.length / itemsPerPage);
+  paginationContainer.innerHTML = "";
 
-  // Hide button if we reached the end
-  if (currentIndex >= allPokemon.length) {
-    loadMoreButton.style.display = "none";
+  let startPage = Math.max(1, currentPage - Math.floor(maxPagesVisible / 2));
+  let endPage = startPage + maxPagesVisible - 1;
+
+  if (endPage > totalPages) {
+    endPage = totalPages;
+    startPage = Math.max(1, endPage - maxPagesVisible + 1);
+  }
+
+  // Prev button
+  if (currentPage > 1) {
+    const prevBtn = createPageButton("« Prev", currentPage - 1);
+    paginationContainer.appendChild(prevBtn);
+  }
+
+  // Page numbers
+  for (let i = startPage; i <= endPage; i++) {
+    const pageBtn = createPageButton(i, i);
+    if (i === currentPage) pageBtn.classList.add("active");
+    paginationContainer.appendChild(pageBtn);
+  }
+
+  // Next button
+  if (currentPage < totalPages) {
+    const nextBtn = createPageButton("Next »", currentPage + 1);
+    paginationContainer.appendChild(nextBtn);
   }
 }
 
-// Load more when button is clicked
-loadMoreButton.addEventListener("click", showNextBatch);
-
+function createPageButton(text, page) {
+  const btn = document.createElement("button");
+  btn.textContent = text;
+  btn.addEventListener("click", () => {
+    currentPage = page;
+    renderPage(currentPage);
+    renderPagination();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  return btn;
+}
