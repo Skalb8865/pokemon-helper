@@ -31,23 +31,23 @@ const batchSize = 100;       // how many to show at a time
 
 // Load the JSON and store data
 fetch(jsonFile)
-    .then((response) => response.json())
-    .then((data) => {
-        allPokemon = data;
-        showNextBatch(); // show the first 50
-    });
+  .then((response) => response.json())
+  .then((data) => {
+    allPokemon = data;
+    showNextBatch(); // show the first 50
+  });
 
 // Show the next batch of Pokémon
 function showNextBatch() {
-    const nextBatch = allPokemon.slice(currentIndex, currentIndex + batchSize);
+  const nextBatch = allPokemon.slice(currentIndex, currentIndex + batchSize);
 
-    nextBatch.forEach((pokemons) => {
-        const { image, name, type, type2, generation, pokedex_number, pokemonSpacer } = pokemons;
+  nextBatch.forEach((pokemons) => {
+    const { image, name, type, type2, generation, pokedex_number, pokemonSpacer } = pokemons;
 
-        pokemonList.innerHTML += `
+    pokemonList.innerHTML += `
       <div class="card">
         <div class="card_img">
-          <a href="./index.html"><img src="${image}" alt="${name}" loading="lazy"></a>
+          <a href="pokemon.html?name=${name}"><img src="${image}" alt="${name}" loading="lazy"></a>
         </div>
         <div class="pokemon_info">
           <p class="pokemon_name">${name} <span class="pokemon_number">${pokedex_number}</span></p>
@@ -58,14 +58,14 @@ function showNextBatch() {
         </p>
       </div>
     `;
-    });
+  });
 
-    currentIndex += batchSize;
+  currentIndex += batchSize;
 
-    // Hide button if we reached the end
-    if (currentIndex >= allPokemon.length) {
-        loadMoreButton.style.display = "none";
-    }
+  // Hide button if we reached the end
+  if (currentIndex >= allPokemon.length) {
+    loadMoreButton.style.display = "none";
+  }
 }
 
 // Load more when button is clicked

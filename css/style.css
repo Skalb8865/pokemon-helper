@@ -58,7 +58,7 @@ body {
   /* background-color: #ffffff;
   background-image: radial-gradient(#000000 1px, transparent 1px);
   background-size: 20px 20px; */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../res/1243956.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../res/pokemons_background.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -264,13 +264,13 @@ main {
 
 .pokemon_name {
   color: var(--clr-light);
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
 }
 
 .pokemon_number {
   color: var(--clr-grey);
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .pokemon_info {
