@@ -8,6 +8,7 @@ export default defineConfig({
         // Main Pages
         main: resolve(__dirname, 'index.html'),
         pokemondb: resolve(__dirname, 'pokemon-db.html'),
+        pokemon: resolve(__dirname, 'pokemon.html'),
       },
     },
   },
