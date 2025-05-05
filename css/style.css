@@ -451,3 +451,25 @@ footer {
   background: var(--clr-dark-red);
   transition: all 0.3s;
 }
+
+.pokemon_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60dvh;
+  gap: 15px;
+  background: var(--clr-dark);
+}
+
+.pokemon_container p {
+ color: var(--clr-grey);
+}
+
+.pokemon_name {
+  color: var(--clr-light);
+}
+
+.pokemon_info--name{
+  color: var(--clr-light);
+}
