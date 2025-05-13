@@ -21,7 +21,7 @@
 //         });
 //     });
 
-const jsonFile = "/all_pokemon_data_with_forms.json";
+const jsonFile = "/gen1_to_3_pokemon_full_data.json";
 const pokemonList = document.querySelector(".card-list");
 const paginationContainer = document.getElementById("pagination");
 
