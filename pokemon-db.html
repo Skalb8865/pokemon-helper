@@ -9,7 +9,7 @@
     <script type="module" src="/src/main.js"></script>
     <script type="module" src="/src/pokemon.js"></script>
     <script type="module">
-        import { animate, stagger, inView } from "https://cdn.jsdelivr.net/npm/motion@12.11.0/+esm"
+        import { animate, inView } from "https://cdn.jsdelivr.net/npm/motion@12.11.0/+esm"
 
         inView(".card-list .card", (element) => {
             animate(element, { opacity: 1, y: [50, 0] }, { delay: stagger(0.05) })
