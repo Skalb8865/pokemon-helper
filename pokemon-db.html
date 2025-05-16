@@ -14,14 +14,14 @@
         inView(".card-list .card", (element) => {
             animate(
                 element,
-                { opacity: 1, x: [-100, 0] },
+                { opacity: 1, y: [-100, 0] },
                 {
                     duration: 0.9,
                     easing: [0.17, 0.55, 0.55, 1],
                 }
             )
 
-            return () => animate(element, { opacity: 0, x: -100 })
+            return () => animate(element, { opacity: 0, y: -100 })
         })
     </script>
 </head>
